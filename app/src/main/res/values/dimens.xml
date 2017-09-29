@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normalSize">20sp</dimen>
+    <dimen name="largelSize">50sp</dimen>
+    <dimen name="smallSize">16sp</dimen>
+
+    <dimen name="marginTopEditTxt">10dp</dimen>
+</resources>
