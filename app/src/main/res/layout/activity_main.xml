@@ -88,18 +88,44 @@
             android:inputType="textEmailAddress"
             android:textSize="@dimen/normalSize"
             />
-
-        <Button
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enviar"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="#fff"
-            android:textSize="@dimen/smallSize"
-            android:layout_gravity="right"
-            android:layout_marginTop="7dp"
-            android:layout_marginRight="2dp"
-            />
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activity feia"
+                android:padding="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="@dimen/smallSize"
+                android:layout_gravity="left"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="2dp"
+                />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="Enviar"
+                android:textColor="#fff"
+                android:textSize="@dimen/smallSize"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+
+
 
     </LinearLayout>
 
